@@ -4,5 +4,6 @@ count=0
 while n>0:
     x=float(input())
     n=x
-    count+=n
+    if n>0:
+        count+=n
 print('сумма чисел',count)
